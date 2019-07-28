@@ -2,8 +2,8 @@
 	{{burger_name}}
 
 	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
-		{{#if devour}}BURGER TIME!!{{/if}}
+		{{#if devour}}BURGER TIME!!{{else}}PUT IT BACK ON THE MENU!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-burger" data-id="{{this.id}}">TAKE IT OFF THE MENU!</button>
 </li>
